@@ -3003,8 +3003,17 @@ input, select, textarea {
 			min-height: 0;
 		}
 
+		.spotlights > section > a.head {
+			background-position: center;
+			background-size: cover;
+			border-radius: 200px;
+			display: block;
+			position: relative;
+			width: 25em;
+		}
+
 		.spotlights > section > .image {
-			background-position: center center;
+			background-position: center;
 			background-size: cover;
 			border-radius: 0;
 			display: block;
